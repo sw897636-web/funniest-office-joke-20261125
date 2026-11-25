@@ -12,7 +12,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "Our printer only jams on deadline day, so IT booked a meeting to fix it, and the meeting has been jammed for three weeks.";
+  "Our fifteen-minute sync has been running since March; two of the people in it have quit the company, but their black squares still attend every Tuesday.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
